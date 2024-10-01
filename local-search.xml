@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>git学习</title>
+    <link href="/2024/10/01/git%E5%AD%A6%E4%B9%A0/"/>
+    <url>/2024/10/01/git%E5%AD%A6%E4%B9%A0/</url>
+    
+    <content type="html"><![CDATA[<h1 id="git-clone-命令"><a href="#git-clone-命令" class="headerlink" title="git clone 命令"></a>git clone 命令</h1><p>git clone是拷贝命令，将远程git仓库拷贝到本地，我们能查看和进行修改</p><figure class="highlight crmsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs crmsh">git <span class="hljs-keyword">clone</span> <span class="hljs-title">[url</span>]<br></code></pre></td></tr></table></figure><p>**[url]**是我们要拷贝的项目</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ git <span class="hljs-built_in">clone</span> https://github.com/tianqixin/runoob-git-test<br>Cloning into <span class="hljs-string">&#x27;runoob-git-test&#x27;</span>...<br>remote: Enumerating objects: 12, <span class="hljs-keyword">done</span>.<br>remote: Total 12 (delta 0), reused 0 (delta 0), pack-reused 12<br>Unpacking objects: 100% (12/12), <span class="hljs-keyword">done</span>.<br></code></pre></td></tr></table></figure><p>执行完上述步骤后，git会在当前目录下创建同名文件夹 runoob-git-test</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Hello World</title>
     <link href="/2024/09/30/hello-world/"/>
     <url>/2024/09/30/hello-world/</url>
