@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>微信小程序</title>
+    <link href="/2024/10/02/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    <url>/2024/10/02/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/</url>
+    
+    <content type="html"><![CDATA[<h1 id="全局配置-tarBar配置"><a href="#全局配置-tarBar配置" class="headerlink" title="全局配置- tarBar配置"></a>全局配置- tarBar配置</h1><p>tarbar字段：定义小程序的顶部，底部tab栏，用于实现页面之间的快速切换</p><p>borderstyle：tab栏的边线是否展示</p><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs ebnf"><span class="hljs-attribute">borderStyle</span><br></code></pre></td></tr></table></figure><p>backgroundcolor：整条tab栏的背景颜色</p><p>selectedColor：被点击后的文字颜色</p><p>color：没有被点击后的颜色</p><p>list：数组，配置底部栏</p><p>text：用来定义每个tab的标题文字</p><p>iconpath：图片没有被点击市图片的路径</p><p>selectedIconPath:当这个tarbar被点击时，该图标路径</p><p>pagePath：点击时跳转的页面路径</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>git学习</title>
     <link href="/2024/10/01/git%E5%AD%A6%E4%B9%A0/"/>
     <url>/2024/10/01/git%E5%AD%A6%E4%B9%A0/</url>
